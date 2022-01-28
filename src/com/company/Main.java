@@ -11,6 +11,6 @@ public class Main {
         int code = 43215;
         double temps[] = {32, 25, 27, 40, 45};
         double avgTemps = (temps[0] + temps[1] + temps[2] + temps[3] + temps[4]) / temps.length;
-        System.out.print("City: " + city + " Zip Code: " + code + " Average High Temperature " + avgTemps);
+        System.out.print("City: " + city + " Zip Code: " + code + " Average High Temperature " + avgTemps); //Prints Zip code, average temperature, and city
     }
 }
